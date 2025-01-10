@@ -1,0 +1,1 @@
+When running the program, the final value of i is different for each run. This is because the two threads utilize the same global variable at the same time (race conditions).
